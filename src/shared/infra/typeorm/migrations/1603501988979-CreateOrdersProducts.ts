@@ -15,14 +15,14 @@ export default class CreateOrdersProducts1603501988979
             default: 'uuid_generate_v4()',
           },
           {
-            name: 'name',
-            type: 'varchar',
-          },
-          {
             name: 'price',
             type: 'decimal',
             precision: 10,
             scale: 2,
+          },
+          {
+            name: 'quantity',
+            type: 'integer',
           },
           {
             name: 'created_at',
